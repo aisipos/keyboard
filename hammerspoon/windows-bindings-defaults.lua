@@ -23,11 +23,12 @@
 --   left => send window to the monitor on the left (if there is one)
 --   right => send window to the monitor on the right (if there is one)
 --------------------------------------------------------------------------------
+-- hyper = {"cmd", "alt", "ctrl", "shift"}
 
 return {
-  modifiers = {'ctrl'},
+  modifiers = {"cmd", "alt", "ctrl", "shift"},
   showHelp  = false,
-  trigger   = 's',
+  trigger   = 'w',
   mappings  = {
     { {},         'return', 'maximize' },
     { {},         'space',  'centerWithFullHeight' },
